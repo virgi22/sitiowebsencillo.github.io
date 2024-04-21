@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.2. Sitio Web sencillo</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('imgs/fondo.jpg');
+            background-size: cover;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header */
+        header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* Estilo del título en el header */
+header h1 {
+    margin: 0;
+    font-size: 40px; 
+    color: #333; 
+    text-align: center; /* Centra el texto del título */
+    flex-grow: 10; 
+}
+
+        /* Logo en el header */
+        #logo {
+            height: 80px;
+            margin-right: auto;
+        }
+
+        /* Cuerpo */
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #373636;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        main a {
+    color: #ffffff; 
+    font-size: 30px; 
+    text-decoration: none; 
+}
+
+main p {
+    font-size: 18px; 
+    color: #ffffff; 
+    margin-bottom: 45px; 
+    text-align: center; 
+}
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <!-- Imagen del logo -->
+          
+            <img id="logo" src="imgs/logo.jpeg" alt="Logo del sitio">
+            <h1>Aplicación Web</h1>
+        </header>
+
+        <!-- Cuerpo -->
+        <main>
+            <p>Bienvenidos a la aplicación web, a continuación da click en el enlace de abajo para ver el video</p>
+            <!-- Enlace a un video de un servicio de streaming -->
+            <a href="https://www.youtube.com/watch?v=mPCN1irKfkc" target="_blank">Ver video</a>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Datos de identificación -->
+            <p>Nombre del curso: Conceptualización de servicios en la nube</p>
+            <p>Nombre completo: Virgilio Augusto Pagliari Arreola</p>
+            <p>Código:  222959468 </p>
+            <p>Correo de contacto: virgilio.pagliari@udgvirtual.udg.mx</p>
+        </footer>
+    </div>
+</body>
+
+</html>
